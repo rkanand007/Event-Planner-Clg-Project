@@ -1,70 +1,202 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&display=swap");
-:root {
-  --purple300: #000b23;
-  --body: #f9f6ff;
-  --max-width: 1200px;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  line-height: 1.4;
-  scroll-behavior: smooth;
+
+*{
+  margin:0;
+  padding:0;
+  color:white;
 }
 
-ul {
-  list-style: none;
-}
-a {
-  color: white;
-  text-decoration: none;
-  justify-content: right;
-}
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-header {
-  background-color: var(--purple300);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  align-items: center;
-  padding: 20px 0;
-}
-.container ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: right;
-}
-
-.logo-img {
-  width: 70px;
-  height: 70px;
+.logo {
+  height:100px;
+  width:100px;
   flex-shrink: 0;
+  margin-left: 50px;
 }
-nav ul {
+.head{
+  height: 100px;
+}
+
+img{
+  height:22px;
+  width:22px;
+}
+
+.home-img{
+  color: white;
+ font-size: 33px;
+ font-family: Inria Serif;
+ font-weight: 700;
+ opacity:1;
+ word-wrap: break-word;
+}
+
+.header-img{
+ margin-right: 5px;
+}
+
+.container{
+  background-color: #000B23;
+  color:white;
+  display:flex;
+  align-items:center;
+}
+
+.options{
+  margin-left: 550px;
+}
+
+.option{
+ color: #FFF;
+ font-family: Inria Serif;
+ font-size: 33px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ /* width: 100px; */
+ height: 40px;
+ flex-shrink: 0;
+ margin-right:40px;
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+word-wrap: break-word
+}
+
+.option:hover{
+  border: 2PX solid white;
+}
+
+.hero-section{
+  background-image: url("danny-howe-bn-D2bCvpik-unsplash\ copy.jpg"); 
+  height:600px;
+  background-size: contain;
+
+}
+
+.msg1{
+ height:80px;
+ width:825px;
+ color: white;
+ font-size: 73px;
+ font-family: Inria Serif;
+ font-weight: 700;
+ word-wrap: break-word
+}
+.msg2{
+  height:110px;
+  width:1006px;
+ color: white;
+ font-size: 96px;
+ font-family: Inria Serif;
+ font-weight: 700;
+ word-wrap: break-word
+}
+.hero-msg{
+  padding-top: 100px;
+  padding-left: 73px;
+}
+
+.arrow-icon{
+  color: #FFFFFF; 
+  width:190px;
+  height:0;
+  opacity:1;
+}
+
+.sub-part{
+  margin-left: 700px;
+  margin-top: 80px;
   display: flex;
-  gap: 40px;
+  height:40px;
+  width:400px;
+  font-family: Inria Serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
-nav ul li {
-  transition: 0.2s ease-in;
-  border-bottom: 2px solid transparent;
+
+.event {
+  display:flex;
+  background-color: #FFF;
+  border-radius: 3px;
+  border:2px solid white;
+  color: #000B23;
+  
 }
-nav ul li:hover {
-  border-bottom: 2px solid white;
-  transition: 0.1s ease-in;
-  transform: scale(1.1);
+.event p{
+  color:#000B23;
+}
+
+button{
+  justify-content: space-evenly;
+  border-radius: 4px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.00);
+  color: #000;
+  height:40px;
+  width:200px
+/* font-family: Inria Serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; */
+}
+
+ button p{
+  color:#FFF;
+  font-size: 28px;
+}
+
+.arrow-img{
+  height:30px;
+  width:30px;
+  margin-left: 10px;
+}
+.info{
+width: 1200px;
+height: 116px;
+flex-shrink: 0;
+border-radius: 14px;
+background: #FFF;
+box-shadow: -2px 5px 31px 18px rgba(0, 0, 0, 0.11);
+margin-left: 80px;
+margin-top: 50px;
+}
+
+.images{
+width: 41px;
+height: 41px;
+flex-shrink: 0;
+}
+
+.text{
+  width: 144px;
+height: 37px;
+flex-shrink: 0;
+color: #000B23;
+font-family: Inria Serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.text1{
+width: 276px;
+height: 35px;
+flex-shrink: 0;
+color: rgba(0, 0, 0, 0.41);
+font-family: Inria Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: 2px solid black;
+}
+
+.hero-sec2{
+display: flex;;
 }
