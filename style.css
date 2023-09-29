@@ -5,6 +5,7 @@
   color:white;
 }
 
+/* header part */
 .logo {
   height:100px;
   width:100px;
@@ -228,3 +229,47 @@ color:#000;
   margin-top: 5px;
 }
 
+.event-plan{
+  height:400px;
+  display: flex;
+}
+
+.create-event{
+  width: 300px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 23px 33px 65px -8px rgba(0, 0, 0, 0.16); 
+  justify-content: center;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.heading{
+  color:black;
+  padding-top: 15px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.para{
+  color:black;
+  margin-top: 15px;
+  color: rgba(30, 30, 30, 0.78);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.event-img{
+  width: 92px;
+  height: 103px;
+  flex-shrink: 0;
+  margin-top: 15px;
+}
