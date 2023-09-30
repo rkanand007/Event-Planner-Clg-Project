@@ -232,7 +232,7 @@ color:#000;
 }
 
 .event-plan{
-  height:400px;
+  height:310px;
   display: flex;
 }
 
@@ -274,4 +274,55 @@ color:#000;
   height: 103px;
   flex-shrink: 0;
   margin-top: 15px;
+}
+
+.team-info{
+  background-color: #000;
+  margin-top: 40px;
+  height: 350px;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.my-team{
+  width: 400px;
+  height:100px;
+  color: #FFF;
+  font-family: Inria Serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+ text-decoration: underline;
+}
+
+.mem-img{
+  width: 156.278px;
+  height: 159.686px;
+  border-radius: 50%;
+  border:5px solid white;
+  transform: rotate(0.127deg);
+  flex-shrink: 0;
+  display: flex;
+}
+
+.team-members{
+  display:flex;
+  justify-content: space-evenly;
+}
+.name{
+width: 228px;
+height: 32px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
 }
