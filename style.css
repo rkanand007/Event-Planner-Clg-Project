@@ -215,9 +215,7 @@ margin-top:5px;
 color: rgba(0, 0, 0, 0.41);
 font-family: Inria Serif;
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 }
 .event-in{
 display: flex;
@@ -255,9 +253,7 @@ color:#000;
   color: #000;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .para{
   color:black;
@@ -265,9 +261,7 @@ color:#000;
   color: rgba(30, 30, 30, 0.78);
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 400
 }
 .event-img{
   width: 92px;
@@ -295,7 +289,6 @@ color:#000;
   font-family: Inria Serif;
   font-size: 60px;
   font-weight: 400;
-  line-height: normal;
   margin-top: 10px;
  text-decoration: underline;
 }
@@ -321,9 +314,7 @@ flex-shrink: 0;
 color: #FFF;
 font-family: Inter;
 font-size: 23px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 margin-top: 10px;
 }
 
@@ -345,4 +336,90 @@ margin-top: 10px;
 .img-info{
   color:black;
   margin-top:5px;
+  width: 379px;
+  height: 36px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+.panel2{
+  height:190px;
+  background: #000B23;
+}
+
+.logo-img{
+  height:150px;
+  width:150px;
+  flex-shrink: 0;
+  margin-top: 15px;
+}
+
+.footer-part{
+  display: flex;
+}
+
+.part2{
+  display: flex;
+  margin-left:820px; 
+  
+}
+
+.p1{
+  text-decoration: underline;
+  margin-top: 15px;
+  height: 29px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.p2{
+  margin-top: 15px;
+  margin-left: 10px;
+  height: 29px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.feedback{
+  margin-left:5px;
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+}
+
+.part3{
+  display: flex;
+  margin-top:20px;
+  margin-left:560px; 
+
+}
+.part4{
+  display: flex;
+  margin-left: 700px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 720;
+}
+
+.panel3{
+height: 46px;
+flex-shrink: 0;
+background: rgba(0, 0, 0, 0.72);
+display: flex;
+justify-content: center;
+align-items: center;
 }
