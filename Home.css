@@ -18,12 +18,12 @@
     height: 80px;
     width: 80px;
     margin-left: 50px;
-    margin-right: 500px;
+    margin-right: 600px;
 }
 nav {
     font-family: Inria Serif;
     font-size: 25px;
-    font-style: normal;
+    font-style: normal       ;
     font-weight: 600;
 }
 nav ul {
@@ -45,10 +45,13 @@ nav a {
 
 /* Carousel section */
 .Carousel{
-    background: url(./Clzz/danny-howe-bn-D2bCvpik-unsplash.jpg), lightgray 50% / cover no-repeat;
+    background-image: url(./Clzz/danny-howe-bn-D2bCvpik-unsplash\ copy\ 2.jpg) ;
     height: 510px;
     background-size: contain;
+    background-repeat: no-repeat; 
+     background-size: cover;
 }
+
 .txt1{
     color: white;
     font-size: 68px;
@@ -113,7 +116,7 @@ nav a {
     border-radius: 14px;
     background: #FFF;
     box-shadow: -2px 5px 31px 18px rgba(0, 0, 0, 0.11);
-    margin-left: 120px;
+    margin-left: 180px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -300,14 +303,3 @@ footer{
     font-size: 25px;
     padding-top: 5px;
 }
-
-
-        
-    
-
- 
-
-
-
-
-  
