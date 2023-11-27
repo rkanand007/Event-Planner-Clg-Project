@@ -15,15 +15,15 @@
     width:22px;
 }
 .logo img{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin-left: 50px;
     margin-right: 600px;
 }
 nav {
     font-family: Inria Serif;
     font-size: 25px;
-    font-style: normal       ;
+    font-style: normal;
     font-weight: 600;
 }
 nav ul {
@@ -43,15 +43,30 @@ nav a {
     text-decoration: underline;
 }
 
-/* Carousel section */
-.Carousel{
-    background-image: url(./Clzz/danny-howe-bn-D2bCvpik-unsplash\ copy\ 2.jpg) ;
-    height: 510px;
-    background-size: contain;
-    background-repeat: no-repeat; 
-     background-size: cover;
+.sub-options{
+    display:none;
 }
 
+.option:hover .sub-options {
+    display:block;
+    position:absolute;
+    background: #fff;
+    font-size: 16px;
+    margin-top :10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.sub-options ul li a{
+    color : black;
+}
+/* Carousel section */
+.Carousel{
+    background: url(./Clzz/images_1.jpeg), lightgray 50% / cover no-repeat;
+    height: 510px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .txt1{
     color: white;
     font-size: 68px;
@@ -116,7 +131,7 @@ nav a {
     border-radius: 14px;
     background: #FFF;
     box-shadow: -2px 5px 31px 18px rgba(0, 0, 0, 0.11);
-    margin-left: 180px;
+    margin-left: 160px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -264,14 +279,17 @@ nav a {
     /* display: flex; */
 }
 .logo-footer{
-    height: 150px;
+    height: 110px;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .contact-icon{
+    display:flex;
     height: 40px;
     width: 40px;
-    margin-left: 5px;
+    margin-top:5px;
+    margin-left:5px;
+    
 }
 strong{
     text-decoration: underline;
@@ -283,13 +301,41 @@ strong{
 }
 
 
-.contact > p{
-    /* display: flex; */
+.contact {
+    display: flex; 
     color: #FFF;
     font-family: Inter;
     font-size: 22px;
-    margin-left: 500px;
-    margin-top: 5px;
+    margin-left: 230px;
+    margin-top: 35px;
+}
+
+.contact > p{
+    margin-left: 80px;
+    margin-top: 8px;
+    
+}
+.btn{
+    border : none;
+    align-items : center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px ;
+    border-radius: 12px;
+}
+
+.contact button{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+.add{
+    margin-left: 210px;
+    color:#fff;
+    font-family: Inter;
+    font-size: 22px;
+    margin-top:25px;
 }
 footer{
     text-align: center;
@@ -303,3 +349,14 @@ footer{
     font-size: 25px;
     padding-top: 5px;
 }
+
+
+        
+    
+
+ 
+
+
+
+
+  
